@@ -6,6 +6,6 @@
 
 def happy_birthday(birthday_kids)
   birthday_kids.each_with_index do |names, index|
-   p `Happy Birthday #{names}! You are now #{age + 1} years old!`
+   p `Happy Birthday #{names}! You are now #{index + 1} years old!`
  end 
 end 
